@@ -489,3 +489,5 @@
     },
 ]
 export const IMG_CDI ="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+
+export const FETCH_MENU_URL = " https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.5723783&lng=73.7669075&restaurantId=147547&catalog_qa=undefined&submitAction=ENTER"

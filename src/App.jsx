@@ -1,15 +1,20 @@
 import React from 'react'
 import './index.css'
 import Header from './Components/Header'
-import Body from './Components/Body'
+
 import Footer from './Components/Footer'
+import { Outlet } from 'react-router-dom'
 
 
-const App= () => {
+
+
+
+
+const AppLayout= () => {
   return(
     <>
      <Header/>
-    <Body/>
+    <Outlet/>
     <Footer/>
     </>
   )
@@ -17,7 +22,7 @@ const App= () => {
    
 
 
-export default App
+export default AppLayout
 
 
 

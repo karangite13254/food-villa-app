@@ -1,44 +1,5 @@
-*{
-  padding:0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
- 
-}
 
-.nav-items>ul{
-list-style-type: none;
-display: flex;
-}
-
-.nav-items > ul > li{
-padding: 10px;
-font-size: 24px;
-}
-.logo{
-  width: 100px;
-
-}
-
-.card{ 
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid black
-
-}
-
-.card>img{
-  width: 185px;
-}
-
-.restauran-List{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
